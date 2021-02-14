@@ -1,0 +1,42 @@
+.post{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e6ecf0;
+    padding-bottom: 10px;
+}
+
+.post_body{
+    flex: 1;
+    padding: 10px;
+}
+
+.post_avatar{
+    padding: 20px;
+}
+
+.post_description > img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.post_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.post_header_text > h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.post_header_user{
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+}
+
+.post_description{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
